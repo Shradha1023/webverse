@@ -1,0 +1,122 @@
+*{
+    /* background-color: beige; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.header{
+    background-color: black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 10%;
+
+}
+.logo a{
+    font-weight: 900;
+    font-size: 24px;
+    color: rgb(144, 188, 226);
+}
+.nav{
+    padding: 10px 0;
+    color: aliceblue;
+
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: opacity 0.2s ease-in-out;
+}
+.menu:hover li{
+    opacity: 0.4;
+
+}
+.menu li:hover{
+    opacity: 1;
+}
+
+.profile{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card1{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: rgba(144, 188, 226,0.8);
+    color: aliceblue;
+    border-radius: 25px;
+    transform: 0.2s all ease-in-out;
+    margin: 100px;
+    
+}
+
+
+.profile-desc1{
+    padding: 30px 20px;
+}
+.student {
+    font-size: 30px;
+    color: rgb(25, 48, 69);
+}
+
+.card2{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: rgba(144, 188, 226,0.8);
+    color: aliceblue;
+    border-radius: 25px;
+    transform: 0.2s all ease-in-out;
+    margin: 100px;
+}
+
+
+.profile-desc2{
+    padding: 30px 20px;
+    
+}
+.warden {
+    font-size: 30px;
+    color: rgb(25, 48, 69);
+}
+
+.card3{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: rgba(144, 188, 226,0.8);
+    color: aliceblue;
+    border-radius: 25px;
+    transform: 0.2s all ease-in-out;
+    margin: 100px;
+}
+
+
+.profile-desc3{
+    padding: 30px 20px;
+}
+.faculty {
+    font-size: 30px;
+    color: rgb(25, 48, 69);
+}
